@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+    min-height: 100svh;
+  }
+  
+  main {
+    padding-top: 120px;
+    padding-bottom: 180px;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+  }
